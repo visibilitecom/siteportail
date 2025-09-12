@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public'), {
 }));
 
 // Handle 404s - serve index.html for SPA-like behavior if needed
-app.get('*', (req, res) => {
+app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
