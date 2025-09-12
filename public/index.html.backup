@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Installation & Dépannage motorisation de portails | Portails Électriques – Installation & Dépannage</title>
+<meta name="description" content="Installation, remplacement et dépannage de moteurs et cartes électroniques pour portails coulissants et battants. Somfy, Came, Nice, FAAC, BFT, Hörmann, DE">
+<link rel="canonical" href="/">
+<link rel="preload" href="/assets/styles.css" as="style">
+<link rel="stylesheet" href="/assets/styles.css">
+<script defer src="/assets/app.js"></script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "★★ Ta Société Portails ★★", "image": "https://example.com/logo.png", "address": {"@type": "PostalAddress", "addressCountry": "FR"}, "telephone": "06 00 00 00 00", "areaServed": "Île-de-France", "url": "https://example.com/"}
+</script>
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="/"><span class="dot"></span> Portails & Motorisation</a>
+    <a class="cta" href="/#devis">Devis express</a>
+  </div>
+</header>
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="kicker">🔧 Portails électriques</div>
+      <h1 class="heading-hero">Installation, remplacement & dépannage de moteurs de portails</h1>
+      <p class="body-large">Installation, remplacement et dépannage de moteurs et cartes électroniques pour portails coulissants et battants. Somfy, Came, Nice, FAAC, BFT, Hörmann, DEA.</p>
+      <div style="margin-top: 2rem;">
+        <a class="cta hover-scale" href="/#devis">Devis express gratuit</a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  
+  <main class="main">
+    <article class="article">
+      
+<div class="grid cols-3">
+  <div class="card accent-purple hover-lift">
+    <span class="badge">Service</span>
+    <h3><a href="/services/installation-moteur-portail">Installation moteur portail</a></h3>
+    <p>Intervention rapide, devis clair, pièces garanties. Installation professionnelle de tous types de motorisation.</p>
+  </div>
+  <div class="card accent-blue hover-lift">
+    <span class="badge">Service</span>
+    <h3><a href="/services/remplacement-moteur-portail">Remplacement moteur portail</a></h3>
+    <p>Remplacement complet de votre motorisation défaillante avec garantie constructeur.</p>
+  </div>
+  <div class="card accent-orange hover-lift">
+    <span class="badge">Service</span>
+    <h3><a href="/services/depannage-portail-electrique">Dépannage portail électrique</a></h3>
+    <p>Diagnostic rapide et réparation sur site. Intervention d'urgence 7j/7.</p>
+  </div>
+  <div class="card accent-pink hover-lift">
+    <span class="badge">Service</span>
+    <h3><a href="/services/motorisation-portail-coulissant">Motorisation portail coulissant</a></h3>
+    <p>Automatisation complète de votre portail coulissant avec télécommande et sécurités.</p>
+  </div>
+  <div class="card accent-green hover-lift">
+    <span class="badge">Service</span>
+    <h3><a href="/services/motorisation-portail-battant">Motorisation portail battant</a></h3>
+    <p>Solutions de motorisation pour portails à battants, simple ou double vantaux.</p>
+  </div>
+  <div class="card accent-grey hover-lift">
+    <span class="badge">Service</span>
+    <h3><a href="/services/probleme-carte-mere-portail">Problème carte mère / électronique</a></h3>
+    <p>Réparation et remplacement de cartes électroniques et boîtiers de commande.</p>
+  </div>
+</div>
+<h2 class="heading-1">Nous intervenons sur toutes les marques</h2>
+<div class="grid cols-3">
+  <div class="card hover-lift">
+    <span class="badge">Marque</span>
+    <h3><a href="/marques/reparation-moteur-portail-somfy">Somfy</a></h3>
+    <p>SAV spécialisé, réglages fins, remplacement de carte électronique, dépannage moteur express.</p>
+  </div>
+  <div class="card hover-lift">
+    <span class="badge">Marque</span>
+    <h3><a href="/marques/depannage-portail-came">Came</a></h3>
+    <p>Expertise technique approfondie, réparation sur site, pièces détachées d'origine.</p>
+  </div>
+  <div class="card hover-lift">
+    <span class="badge">Marque</span>
+    <h3><a href="/marques/remplacement-carte-mere-nice-portail">Nice</a></h3>
+    <p>Spécialiste agréé Nice, programmation télécommandes, mise à jour firmware.</p>
+  </div>
+  <div class="card hover-lift">
+    <span class="badge">Marque</span>
+    <h3><a href="/marques/moteur-portail-faac-en-panne">FAAC</a></h3>
+    <p>Réparation et maintenance préventive, optimisation des performances.</p>
+  </div>
+  <div class="card hover-lift">
+    <span class="badge">Marque</span>
+    <h3><a href="/marques/automatisme-portail-bft-reparation">BFT</a></h3>
+    <p>Service après-vente professionnel, calibrage automatique, diagnostic électronique.</p>
+  </div>
+  <div class="card hover-lift">
+    <span class="badge">Marque</span>
+    <h3><a href="/marques/depannage-portail-hormann">Hörmann</a></h3>
+    <p>Technicien certifié Hörmann, réparation garantie, intervention sous 24h.</p>
+  </div>
+  <div class="card hover-lift">
+    <span class="badge">Marque</span>
+    <h3><a href="/marques/moteur-portail-dea-probleme">DEA</a></h3>
+    <p>Dépannage rapide, remplacement moteur, programmation centrales de commande.</p>
+  </div>
+</div>
+<section id="devis" class="card" style="max-width: 800px; margin: 3rem auto;">
+  <h2 class="heading-2">Devis express gratuit</h2>
+  <p class="notice">📋 Obtenez votre devis personnalisé en moins de 2 minutes. Intervention rapide garantie.</p>
+  <form onsubmit="alert('Merci! Nous vous contactons sous 2h pour votre devis personnalisé.'); return false;" style="margin-top: 2rem;">
+    <div class="grid cols-3">
+      <input required name="nom" placeholder="Votre nom complet" />
+      <input required name="tel" type="tel" placeholder="Téléphone" />
+      <input name="ville" placeholder="Ville d'intervention" />
+    </div>
+    <div style="margin-top: 1.5rem;">
+      <textarea name="details" placeholder="Décrivez votre problème : type de portail, marque, panne constatée..." rows="3" style="width: 100%; resize: vertical;"></textarea>
+    </div>
+    <div style="margin-top: 2rem; text-align: center;">
+      <button type="submit" class="hover-scale">🚀 Obtenir mon devis gratuit</button>
+    </div>
+  </form>
+</section>
+<section class="card">
+  <h2>Zones d’intervention</h2>
+  <p>Remplace par tes villes cibles (ex. Paris, Boulogne, Neuilly, Levallois…).</p>
+</section>
+
+    </article>
+    <aside class="aside">
+      <h2>Besoin d’un dépannage ?</h2>
+      <p>Appelle-nous au <strong>06 00 00 00 00</strong> ou demande un devis en 60 s.</p>
+      <ul class="ul">
+        <li>Intervention 7j/7</li>
+        <li>Portails coulissants & battants</li>
+        <li>Cartes électroniques & motorisations</li>
+      </ul>
+      <div class="taglist">
+        <span class="tag">Somfy</span><span class="tag">Came</span><span class="tag">Nice</span>
+        <span class="tag">FAAC</span><span class="tag">BFT</span><span class="tag">Hörmann</span><span class="tag">DEA</span>
+      </div>
+    </aside>
+  </main>
+</div>
+<footer class="footer">
+  <div class="container">© <span data-year></span> Portails & Motorisation — Remplace les infos (nom, SIRET, téléphone) dans le code.</div>
+</footer>
+</body>
+</html>
