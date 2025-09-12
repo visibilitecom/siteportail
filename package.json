@@ -1,6 +1,17 @@
 {
+  "name": "static-website-server",
+  "version": "1.0.0",
+  "description": "Static website server for portails site",
+  "main": "static-server.js",
+  "scripts": {
+    "start": "node static-server.js",
+    "dev": "node static-server.js"
+  },
   "dependencies": {
     "compression": "^1.8.1",
     "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
