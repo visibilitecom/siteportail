@@ -15,6 +15,22 @@ app.use('/assets', express.static(path.join(__dirname, 'public', 'assets'), {
   lastModified: true
 }));
 
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    features: {
+      'clean_urls': true,
+      'gzip_compression': true,
+      'asset_caching': '1 day',
+      'document_root': 'public/',
+      'https_ready': true
+    }
+  });
+});
+
 // Serve static files from public directory with clean URLs
 app.use(express.static(path.join(__dirname, 'public'), {
   extensions: ['html'], // Enable clean URLs without .html extension
