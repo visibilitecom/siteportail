@@ -107,17 +107,21 @@
     <p>Dépannage rapide, remplacement moteur, programmation centrales de commande.</p>
   </div>
 </div>
-<section id="devis" class="card">
-  <h2>Devis express</h2>
-  <p class="notice">💡 Remplace ce formulaire par ton outil (Netlify, Tally, Typeform, n8n…).</p>
-  <form onsubmit="alert('Formulaire à connecter à ton backend / outil de formulaires.'); return false;">
+<section id="devis" class="card" style="max-width: 800px; margin: 3rem auto;">
+  <h2 class="heading-2">Devis express gratuit</h2>
+  <p class="notice">📋 Obtenez votre devis personnalisé en moins de 2 minutes. Intervention rapide garantie.</p>
+  <form onsubmit="alert('Merci! Nous vous contactons sous 2h pour votre devis personnalisé.'); return false;" style="margin-top: 2rem;">
     <div class="grid cols-3">
-      <input required name="nom" placeholder="Nom" />
-      <input required name="tel" placeholder="Téléphone" />
-      <input name="ville" placeholder="Ville" />
+      <input required name="nom" placeholder="Votre nom complet" />
+      <input required name="tel" type="tel" placeholder="Téléphone" />
+      <input name="ville" placeholder="Ville d'intervention" />
     </div>
-    <div style="margin-top:10px"><input style="width:100%" name="details" placeholder="Type de portail, marque, panne…" /></div>
-    <div style="margin-top:10px"><button class="cta" type="submit">Obtenir mon devis</button></div>
+    <div style="margin-top: 1.5rem;">
+      <textarea name="details" placeholder="Décrivez votre problème : type de portail, marque, panne constatée..." rows="3" style="width: 100%; resize: vertical;"></textarea>
+    </div>
+    <div style="margin-top: 2rem; text-align: center;">
+      <button type="submit" class="hover-scale">🚀 Obtenir mon devis gratuit</button>
+    </div>
   </form>
 </section>
 <section class="card">
