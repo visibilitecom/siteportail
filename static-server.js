@@ -15,16 +15,11 @@ app.use('/assets', express.static(path.join(__dirname, 'public', 'assets'), {
   lastModified: true
 }));
 
-// Serve static files from public directory
+// Serve static files from public directory with clean URLs
 app.use(express.static(path.join(__dirname, 'public'), {
   extensions: ['html'], // Enable clean URLs without .html extension
   index: 'index.html'
 }));
-
-// Handle 404s - serve index.html for SPA-like behavior if needed
-app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
 
 // Start server
 app.listen(port, '0.0.0.0', () => {
