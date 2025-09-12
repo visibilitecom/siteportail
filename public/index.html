@@ -199,7 +199,47 @@
   </main>
 </div>
 <footer class="footer">
-  <div class="container">© <span data-year></span> Portails & Motorisation — Remplace les infos (nom, SIRET, téléphone) dans le code.</div>
+  <div class="container">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+      <div>
+        <h3 style="color: var(--text-primary); font-size: 1.1rem; margin-bottom: 1rem;">🔧 Portails & Motorisation</h3>
+        <p style="font-size: 0.875rem; line-height: 1.5; margin-bottom: 1rem;">Votre expert en motorisation de portails depuis 15 ans. Installation, dépannage et maintenance sur toute l'Île-de-France.</p>
+        <p style="font-size: 0.875rem;"><strong>📞 06 00 00 00 00</strong><br>
+        📧 contact@portails-motorisation.fr</p>
+      </div>
+      
+      <div>
+        <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 1rem;">Services</h4>
+        <ul style="list-style: none; padding: 0; font-size: 0.875rem; line-height: 1.8;">
+          <li><a href="/services/installation-moteur-portail" style="color: var(--text-muted); text-decoration: none;">Installation moteur</a></li>
+          <li><a href="/services/depannage-portail-electrique" style="color: var(--text-muted); text-decoration: none;">Dépannage express</a></li>
+          <li><a href="/services/remplacement-moteur-portail" style="color: var(--text-muted); text-decoration: none;">Remplacement</a></li>
+          <li><a href="/services/probleme-carte-mere-portail" style="color: var(--text-muted); text-decoration: none;">Réparation électronique</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 style="color: var(--text-primary); font-size: 1rem; margin-bottom: 1rem;">Marques</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <span class="tag" style="font-size: 0.75rem;">Somfy</span>
+          <span class="tag" style="font-size: 0.75rem;">Came</span>
+          <span class="tag" style="font-size: 0.75rem;">Nice</span>
+          <span class="tag" style="font-size: 0.75rem;">FAAC</span>
+          <span class="tag" style="font-size: 0.75rem;">BFT</span>
+          <span class="tag" style="font-size: 0.75rem;">Hörmann</span>
+        </div>
+      </div>
+    </div>
+    
+    <div style="border-top: 1px solid var(--border-light); padding-top: 1.5rem; text-align: center; font-size: 0.8rem;">
+      <p>© <span id="current-year"></span> Portails & Motorisation — Intervention rapide en Île-de-France</p>
+      <p style="margin-top: 0.5rem; color: var(--text-muted);">SIRET: 123 456 789 00012 | Assurance responsabilité civile professionnelle</p>
+    </div>
+  </div>
 </footer>
+
+<script>
+document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
