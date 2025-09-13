@@ -406,40 +406,23 @@ p {
   box-shadow: var(--shadow-lg);
 }
 
-/* Grid Layout */
+/* Grid */
 .grid {
   display: grid;
   gap: 2rem;
-  padding: 1rem 0;
 }
 
 .grid.cols-3 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem 1.2rem;
 }
 
-/* Voice Card Accent Variations */
-.card.accent-purple { 
-  background: var(--accent-purple-200); 
-  border-color: var(--accent-purple-400);
-}
-.card.accent-blue { 
-  background: var(--accent-blue-200);
-  border-color: var(--accent-blue-400);
-}
-.card.accent-orange { 
-  background: var(--accent-orange-200);
-  border-color: var(--accent-orange-400);
-}
-.card.accent-pink { 
-  background: var(--accent-pink-200);
-}
-.card.accent-green { 
-  background: var(--accent-green-200);
-}
-.card.accent-grey { 
-  background: var(--accent-grey-200);
-}
+/* Card Variants */
+.card.accent-purple { background: #f3f4f6; border-left: 4px solid #8b5cf6; }
+.card.accent-blue { background: #eff6ff; border-left: 4px solid #3b82f6; }
+.card.accent-orange { background: #fff7ed; border-left: 4px solid #f59e0b; }
+.card.accent-pink { background: #fdf2f8; border-left: 4px solid #ec4899; }
+.card.accent-green { background: #f0fdf4; border-left: 4px solid #10b981; }
+.card.accent-grey { background: #f9fafb; border-left: 4px solid #6b7280; }
 
 /* Typography in Cards */
 .card h3 {
