@@ -282,16 +282,13 @@ p {
   transform: scale(0.98);
 }
 
-/* Hero Section with Professional Image */
+/* Hero Section */
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 12rem 1.2rem 6rem;
-  margin-top: 90px;
+  padding-top: 100px;
   overflow: hidden;
 }
 
@@ -317,26 +314,18 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 249, 242, 0.92) 0%,
-    rgba(252, 202, 199, 0.85) 25%,
-    rgba(248, 216, 251, 0.88) 50%,
-    rgba(228, 237, 248, 0.90) 75%,
-    rgba(255, 249, 242, 0.94) 100%
-  );
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.9), rgba(37, 99, 235, 0.7));
   z-index: 2;
 }
 
 .hero-content {
-  max-width: 800px;
-  margin: 0 auto;
   position: relative;
   z-index: 3;
+  max-width: 800px;
   text-align: center;
+  color: white;
 }
 
-/* Hero Badges */
 .hero-badges {
   display: flex;
   justify-content: center;
@@ -346,43 +335,20 @@ p {
 }
 
 .hero-badge {
-  display: inline-flex;
-  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
   padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 0.9);
   border-radius: 25px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-primary);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-/* Hero Title */
-.hero .heading-hero {
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  line-height: 1.1;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, var(--text-primary), var(--accent-purple-400));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
 }
 
 .hero-subtitle {
-  font-size: clamp(1.1rem, 2.5vw, 1.3rem);
-  line-height: 1.6;
-  color: var(--text-secondary);
-  margin-bottom: 3rem;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
 }
 
-/* Hero Features */
 .hero-features {
   display: flex;
   justify-content: center;
@@ -395,81 +361,31 @@ p {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
   padding: 0.75rem 1.5rem;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 15px;
-  font-weight: 500;
-  color: var(--text-primary);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
-.feature-icon {
-  font-size: 1.2rem;
-}
-
-/* Hero Actions */
 .hero-actions {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-bottom: 3rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.hero-actions .cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 12px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  min-width: 200px;
-  justify-content: center;
-}
-
-.hero-actions .cta.primary {
-  background: linear-gradient(135deg, var(--text-primary), var(--accent-purple-400));
-  color: white;
-}
-
-.hero-actions .cta.primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-}
-
-.hero-actions .cta.secondary {
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--text-primary);
-  border: 2px solid var(--accent-purple-400);
-}
-
-.hero-actions .cta.secondary:hover {
-  background: var(--accent-purple-400);
-  color: white;
-  transform: translateY(-2px);
-}
-
-/* Hero Trust */
 .hero-trust {
   margin-top: 2rem;
 }
 
 .trust-text {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
   padding: 1rem 2rem;
   border-radius: 25px;
-  display: inline-block;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
 }
 
 /* Voice Interface Cards - Signature Component */
