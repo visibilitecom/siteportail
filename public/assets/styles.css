@@ -391,31 +391,19 @@ p {
   backdrop-filter: blur(10px);
 }
 
-/* Voice Interface Cards - Signature Component */
+/* Cards */
 .card {
-  background: var(--bg-card);
-  border-radius: 0.75rem;
+  background: white;
+  border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: all 0.2s;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
-}
-
-.card.hero-card {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 /* Grid Layout */
