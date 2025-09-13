@@ -265,7 +265,16 @@ p {
   z-index: 3;
   max-width: 800px;
   text-align: center;
-  color: white;
+  color: white !important;
+}
+
+.hero-content h1 {
+  color: white !important;
+}
+
+.hero-content p {
+  color: white !important;
+  opacity: 0.95;
 }
 
 .hero-badges {
