@@ -718,8 +718,36 @@ html, body {
 .main {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem;
-  padding: 3rem 0;
+  gap: 5rem;
+  padding: 5rem 0;
+}
+
+/* Section Headers */
+.services-section,
+.brands-section,
+.zones-section {
+  padding: 5rem 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-header .heading-1 {
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--text-primary), var(--accent-purple-400));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 @media (min-width: 920px) {
