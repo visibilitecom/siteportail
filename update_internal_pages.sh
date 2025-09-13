@@ -188,3 +188,64 @@ for file in /app/public/marques/*.html; do
 done
 
 echo "✅ Mise à jour terminée!"
+echo "📱 Ajout du JavaScript pour le menu mobile..."
+
+# Script JavaScript pour le menu mobile
+JS_SCRIPT='
+<script>
+document.getElementById("current-year") && (document.getElementById("current-year").textContent = new Date().getFullYear());
+
+// Mobile menu functionality
+function toggleMobileMenu() {
+  const mobileMenu = document.querySelector(".mobile-menu");
+  const menuBtn = document.querySelector(".mobile-menu-btn");
+  
+  if (mobileMenu && menuBtn) {
+    mobileMenu.classList.toggle("active");
+    menuBtn.classList.toggle("active");
+  }
+}
+
+// Smooth scrolling for navigation links
+document.querySelectorAll("a[href^=\"#\"]").forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    if (target) {
+      const headerHeight = document.querySelector(".header").offsetHeight;
+      const targetPosition = target.offsetTop - headerHeight - 20;
+      
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth"
+      });
+    }
+  });
+});
+
+// Header scroll effect
+window.addEventListener("scroll", function() {
+  const header = document.querySelector(".header");
+  if (header) {
+    if (window.scrollY > 100) {
+      header.style.background = "rgba(255, 255, 255, 0.95)";
+      header.style.backdropFilter = "blur(25px)";
+    } else {
+      header.style.background = "rgba(255, 255, 255, 0.98)";
+      header.style.backdropFilter = "blur(20px)";
+    }
+  }
+});
+</script>'
+
+# Ajout du script avant la balise </body> pour toutes les pages
+for file in /app/public/services/*.html /app/public/marques/*.html; do
+    # Vérifier si le script n'existe pas déjà
+    if ! grep -q "toggleMobileMenu" "$file"; then
+        # Ajouter le script avant </body>
+        sed -i "s|</body>|$JS_SCRIPT\n</body>|" "$file"
+        echo "JavaScript ajouté à: $file"
+    fi
+done
+
+echo "✅ JavaScript ajouté à toutes les pages!"
