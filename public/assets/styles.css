@@ -1,46 +1,17 @@
 
-/* Voice AI Design System - Foundation Colors */
+/* Modern Design System */
 :root {
-  /* Backgrounds - Warm cream system */
-  --bg-page: #FFF9F2;
-  --bg-card: #FFFFFF;
-  --bg-section: rgba(255, 244, 232, 0.6);
-  --bg-overlay: rgba(255, 255, 255, 0.95);
-  
-  /* Text colors */
-  --text-primary: #232323;
-  --text-secondary: #353535;
-  --text-muted: #353535;
-  
-  /* Borders */
-  --border-primary: #999999;
-  --border-input: #999999;
-  --border-input-focus: #4D4D4D;
-  --border-light: rgba(153, 153, 153, 0.3);
-  
-  /* Voice Interface Accent Colors */
-  --accent-purple-400: #987D9C;
-  --accent-purple-200: #F9E8FA;
-  --accent-blue-400: #768597;
-  --accent-blue-200: #E4EDF8;
-  --accent-orange-400: #BCA182;
-  --accent-orange-200: #FEEFDC;
-  --accent-pink-200: #FCC9C7;
-  --accent-green-200: #b8d1ba;
-  --accent-grey-200: #E9E1E1;
-  
-  /* Glass Effect */
-  --glass-bg: rgba(255, 255, 255, 0.2);
-  --glass-border: rgba(0, 0, 0, 0.1);
-  
-  /* Hero Gradients */
-  --gradient-hero-warm: linear-gradient(135deg, 
-    rgba(252, 202, 199, 1) 0%,     
-    rgba(253, 215, 197, 0.8) 25%,  
-    rgba(254, 241, 229, 0.6) 50%,  
-    rgba(255, 250, 243, 0.8) 75%,  
-    rgba(252, 202, 199, 1) 100%    
-  );
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary: #64748b;
+  --accent: #f59e0b;
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --text: #1e293b;
+  --text-light: #64748b;
+  --border: #e2e8f0;
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 }
 
 /* Global Styles */
